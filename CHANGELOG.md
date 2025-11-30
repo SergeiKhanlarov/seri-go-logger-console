@@ -45,3 +45,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Implements full `sglogger.LoggerProvider` interface
 - Supports context-aware logging
 - Thread-safe implementation
+
+## [v0.1.1] - 2025-11-30
+
+### Fixed
+- downgraded required go version
