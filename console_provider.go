@@ -111,7 +111,7 @@ func (p *consoleProvider) Write(ctx context.Context, level sglogger.Level, messa
 //   - Сообщения с уровнем ВЫШЕ или РАВНЫМ минимальному проходят фильтр
 //   - Например, при LevelInfo: Debug отфильтруется, Info и выше пройдут
 func (p *consoleProvider) ShouldLog(ctx context.Context, level sglogger.Level) bool {
-	return level >= p.config.level
+	return level >= p.config.Level
 }
 
 // Close освобождает ресурсы провайдера логирования.
